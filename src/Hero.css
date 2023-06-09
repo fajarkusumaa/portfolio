@@ -61,6 +61,39 @@
 }
 
 
+.flip-card-back::after,
+.flip-card-back-v::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+
+    transition: ease-in-out 600ms;
+}
+
+.flip-card:hover .flip-card-back::after,
+.flip-card:focus .flip-card-back::after,
+.flip-card:hover .flip-card-back-v::after,
+.flip-card:focus .flip-card-back-v::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+    height: 3px;
+    width: 80%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) -2.29%, rgba(0, 241, 247, 0.7) 23.81%, #00F1F7 49.22%, rgba(0, 241, 247, 0.7) 72.83%, rgba(255, 255, 255, 0) 100%);
+    filter: drop-shadow(0px 2px 14px rgba(0, 241, 247, 0.8));
+
+}
+
+
+
 .flip-card-front,
 .flip-card-back,
 .flip-card-back-v {
