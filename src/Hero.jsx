@@ -19,7 +19,10 @@ const Hero = () => {
                                 }}
                             ></div>
                             <div className="flip-card-back rounded-xl bg-zinc-900">
-                                <a href="https://github.com/fajarkusumaa">
+                                <a
+                                    href="https://github.com/fajarkusumaa"
+                                    target="blank"
+                                >
                                     <i className="fa-brands fa-github fa-2xl text-white"></i>
                                 </a>
                             </div>
@@ -55,7 +58,10 @@ const Hero = () => {
                                 }}
                             ></div>
                             <div className="flip-card-back rounded-xl bg-zinc-900">
-                                <a href="https://dribbble.com/fajarksm">
+                                <a
+                                    href="https://dribbble.com/fajarksm"
+                                    target="blank"
+                                >
                                     <i className="fa-brands fa-dribbble fa-2xl text-white"></i>
                                 </a>
                             </div>
@@ -137,7 +143,10 @@ const Hero = () => {
                                 }}
                             ></div>
                             <div className="flip-card-back rounded-xl bg-zinc-900">
-                                <a href="https://instagram.com/fajarksm?igshid=ZDc4ODBmNjlmNQ==">
+                                <a
+                                    href="https://instagram.com/fajarksm?igshid=ZDc4ODBmNjlmNQ=="
+                                    target="blank"
+                                >
                                     <i className="fa-brands fa-instagram fa-2xl text-white"></i>
                                 </a>
                             </div>
@@ -165,7 +174,7 @@ const Hero = () => {
                     <div className="flip-card my-btn w-24 h-24 rounded-xl overflow-hidden">
                         <div className="flip-card-inner-h border-zinc-900">
                             <div
-                                className="flip-card-front rounded-xl bg-slate-700"
+                                className="flip-card-front rounded-xl"
                                 style={{
                                     backgroundImage: `url(
                                         "https://lh3.googleusercontent.com/pw/AJFCJaX5sewSxQhjEdqlW5Wj3g5KqWHlsLUyUOd5Ft8kz2WskPxPikzgVzO97iI7ern7lxiOTL7_p63HhrtnIWGRAI2RGvWO-gApONAa_qJ5-mhAMa0K0lPF3JuGaossF65-L2_hRo4-9v7u9jIcXk916a1jhB0vKcQVCwDppHAee4UO8z5JQ6hCMkuhMD7w_oreERraspl-QhJ4WUS33b_rJVL-_mPdJZ4cGDPmwjUz92X7X1DJgHuTKubsI_DrZbKQtXgho5Wh3NOdCVmDoB8TGtMlg774n1zRfue5nL0e7KhjLy8e8H5ULtACiMwIOnCaA1wVQdpN3xRMlg_AxpDLOfQ9oaZqV7RutdhvEcLfTvUGb84NrGr4VA77n_xxCk8CKSwYlt7Hxn6zb__pHt1YgsMnAuv68k7unRIZuafZjZ9rMkVzGbTBsvsEKyzJP7QlR7KjfHV6mOZuD4UXErqtz9HAHIwberfCLsCx74aE21zUURpHMRDZxkBsX6IjWHBapo9fFC-NfBmkYq70IKkrXkN2g2TnHMTzQoGuOvakizEEp3p25kIKXkhEdJhCA6xCjOayfXBXyq2vNb2-jaRBbapIagsoyEnYvsIJTS56_10NVC8sqjnN-poEXrxc7nPywKYwP521S_Mj0tJivv47bXYK-YDqmaN40YGLwJXL9oPm_ambiXFxqiIDQgGJv_nIEZegEe-50gIq5ijXoILPdRDiu3kP1waoqBLTvqD91sFohcZ4YKwU64RLNEx5O6Ko5DFnL_UOenEc7wAsZrTGTn8F54K_8GKiaPxpr3-WcraGWbu7TSJ-DbcCstZx9jw8plxl3bUWEb7ZIP00uT1p7e4PUKq401nWV43umpjBeZrRl2kex5ZQXHdmAmNkyQ6-n_Z2iFnXDPKEYkoe39sQxA-smtlXK7pKqE38A78GfmUbJH88-gLXG2BKTA7VcQ=w96-h96-s-no?authuser=0"
@@ -173,7 +182,10 @@ const Hero = () => {
                                 }}
                             ></div>
                             <div className="flip-card-back rounded-xl bg-zinc-900">
-                                <a href="https://instagram.com/fajarksm">
+                                <a
+                                    href="https://instagram.com/fajarksm"
+                                    target="blank"
+                                >
                                     <i className="fa-brands fa-instagram fa-2xl text-white"></i>
                                 </a>
                             </div>
