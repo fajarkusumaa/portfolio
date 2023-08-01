@@ -137,3 +137,8 @@
 .flip-card:hover .flip-card-back-v {
     opacity: 1;
 }
+
+.flip-card p {
+    font-stretch: expanded;
+    color: pink;
+}
